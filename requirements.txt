@@ -1,0 +1,26 @@
+# What runs on CPU from the committed results/, with these packages only:
+#   scripts/export_records.py      rebuilds records_full.csv and records_texts.jsonl
+#   scripts/p8_figures.py          figures 1-7
+#   scripts/p12_extra_figures.py   figures 8-15
+#   scripts/p10_audit.py           units, FPR procedures, exact-test floors
+#   scripts/p11_reparse.py         re-classification of the saved steering generations
+#   scripts/final_dump_en.py       the full dump
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+pyyaml
+
+# What additionally needs torch and the activation tensors, which are NOT in this
+# repository (see results/DATA_NOT_INCLUDED.md for their sha256):
+#   scripts/probe_stage.py, g1_extract.py   activation extraction        (GPU)
+#   scripts/p2_analysis.py, p4_analysis.py, p5_lda_and_b3.py             (CPU, needs the .pt files)
+#   scripts/p7_pooled_direction.py          pooled-class direction       (CPU, needs the .pt files)
+#   scripts/p11_steer.py                    the steering experiment      (GPU)
+# torch
+# transformers==5.16.1
+
+# The environment of the runs that produced results/ is pinned in results/env_freeze.txt.
+# Note that env.transformers inside numbers.json is overwritten by whichever session last
+# touched the snapshot; generation and activation extraction were performed on 5.16.1.

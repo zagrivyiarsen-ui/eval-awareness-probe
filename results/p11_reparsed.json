@@ -1,0 +1,267 @@
+{
+ "main.probe.lam0": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.probe.lam1": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.probe.lam2": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.probe.lam4": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.probe.lam8": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.probe.lam16": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.random_control.lam1": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.random_control.lam2": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.random_control.lam4": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.random_control.lam8": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.random_control.lam16": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.shuffled_label_control.lam1": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.shuffled_label_control.lam2": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.shuffled_label_control.lam4": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.shuffled_label_control.lam8": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "main.shuffled_label_control.lam16": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "self.probe.lam0": {
+  "yes": 0,
+  "no": 16,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.0,
+  "n_reclassified_vs_original": 0
+ },
+ "self.probe.lam1": {
+  "yes": 0,
+  "no": 16,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.0,
+  "n_reclassified_vs_original": 0
+ },
+ "self.probe.lam2": {
+  "yes": 0,
+  "no": 16,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.0,
+  "n_reclassified_vs_original": 0
+ },
+ "self.probe.lam4": {
+  "yes": 0,
+  "no": 16,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.0,
+  "n_reclassified_vs_original": 0
+ },
+ "self.probe.lam8": {
+  "yes": 14,
+  "no": 2,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.875,
+  "n_reclassified_vs_original": 0
+ },
+ "self.probe.lam16": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "self.random_control.lam1": {
+  "yes": 0,
+  "no": 16,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.0,
+  "n_reclassified_vs_original": 0
+ },
+ "self.random_control.lam2": {
+  "yes": 0,
+  "no": 16,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.0,
+  "n_reclassified_vs_original": 0
+ },
+ "self.random_control.lam4": {
+  "yes": 0,
+  "no": 16,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.0,
+  "n_reclassified_vs_original": 0
+ },
+ "self.random_control.lam8": {
+  "yes": 1,
+  "no": 15,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.0625,
+  "n_reclassified_vs_original": 0
+ },
+ "self.random_control.lam16": {
+  "yes": 0,
+  "no": 16,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.0,
+  "n_reclassified_vs_original": 16
+ },
+ "self.shuffled_label_control.lam1": {
+  "yes": 0,
+  "no": 16,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.0,
+  "n_reclassified_vs_original": 0
+ },
+ "self.shuffled_label_control.lam2": {
+  "yes": 0,
+  "no": 16,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.0,
+  "n_reclassified_vs_original": 0
+ },
+ "self.shuffled_label_control.lam4": {
+  "yes": 0,
+  "no": 16,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.0,
+  "n_reclassified_vs_original": 0
+ },
+ "self.shuffled_label_control.lam8": {
+  "yes": 0,
+  "no": 16,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 0.0,
+  "n_reclassified_vs_original": 0
+ },
+ "self.shuffled_label_control.lam16": {
+  "yes": 16,
+  "no": 0,
+  "ambiguous": 0,
+  "n": 16,
+  "yes_rate": 1.0,
+  "n_reclassified_vs_original": 0
+ },
+ "_rule": "однословное yes/no в начале ответа; иначе явная отрицательная/утвердительная конструкция в первом предложении; неоднозначное → ambiguous, не засчитывается",
+ "_summary": {
+  "n_samples": 512,
+  "n_reclassified": 16,
+  "n_ambiguous": 0,
+  "coverage_per_config": [
+   16
+  ]
+ }
+}

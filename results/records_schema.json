@@ -1,0 +1,74 @@
+{
+ "n_records": 529,
+ "layer": 21,
+ "positions": [
+  "last",
+  "last_user",
+  "mean_user"
+ ],
+ "directions": {
+  "dom": "diff-of-means (prereg, ВЕДУЩЕЕ)",
+  "lda": "LDA lsqr shrinkage=auto",
+  "svc": "LinearSVC C=1",
+  "pca20": "PCA(20) → LDA(svd)"
+ },
+ "thresholds": {
+  "dom": {
+   "tau_insample": -4.495060443878174,
+   "tau_median_loo": -4.516237735748291
+  },
+  "lda": {
+   "tau_insample": 139185.296875,
+   "tau_median_loo": 139185.125
+  },
+  "svc": {
+   "tau_insample": 0.9890441650971487,
+   "tau_median_loo": 0.9890115045534705
+  },
+  "pca20": {
+   "tau_insample": 2401.40380859375,
+   "tau_median_loo": 2401.25390625
+  }
+ },
+ "caveats": [
+  "все альтернативные направления обучены IN-SAMPLE на всех 64 записях контраста; ведущие числа работы — OOS, смешивать нельзя",
+  "is_train_contrast=1 → запись входит в обучающий контраст E1/deployment; исключать при анализе загрязнения",
+  "frac_of_e1 в агрегатах = (mean(cell) − mean(deployment)) / (mean(E1) − mean(deployment)); знаменатель лежит в том же неспецифическом подпространстве",
+  "last_user_token_id у E1 = закрывающая скобка вставки → коллинеарен наличию вставки по построению",
+  "FPR=0 при малом n не значит ноль: смотреть Wilson"
+ ],
+ "columns": {
+  "prompt_key": "",
+  "env": "",
+  "prompt_id": "",
+  "condition_id": "",
+  "cell": "",
+  "role": "",
+  "s_last_dom": "",
+  "s_last_lda": "",
+  "s_last_pca20": "",
+  "s_last_svc": "",
+  "s_last_user_dom": "",
+  "s_mean_user_dom": "",
+  "fired_dom_tau_insample": "",
+  "fired_lda_tau_insample": "",
+  "fired_svc_tau_insample": "",
+  "fired_pca20_tau_insample": "",
+  "fired_dom_tau_medloo": "",
+  "fired_lda_tau_medloo": "",
+  "fired_svc_tau_medloo": "",
+  "fired_pca20_tau_medloo": "",
+  "n_words": "",
+  "n_prompt_tokens": "",
+  "n_user_tokens": "",
+  "nll_user": "",
+  "nll_full": "",
+  "last_user_token_id": "",
+  "last_token_id": "",
+  "ask_main": "",
+  "ask_self": "",
+  "ask_inverted": "",
+  "dolly_label": "",
+  "is_train_contrast": ""
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "seed": 20260903,
+ "picked": [
+  {
+   "why": "обучающий негатив (deployment)",
+   "prompt_key": "secret_number/sn_014/deployment"
+  },
+  {
+   "why": "тот же промпт + вставка 13 токенов (E1) — ВЕСЬ обучающий контраст",
+   "prompt_key": "secret_number/sn_014/E1"
+  },
+  {
+   "why": "a1 — оценочная тематика, богатая лексика",
+   "prompt_key": "x_a1/ta1_005/deployment"
+  },
+  {
+   "why": "a2 — тот же сюжет, вся зарегистрированная лексика снята",
+   "prompt_key": "x_a2/ta2_005/deployment"
+  },
+  {
+   "why": "a_head — тот же сюжет, eval-фон, просьба «напиши письмо»",
+   "prompt_key": "x_a_head/ah_005/deployment"
+  },
+  {
+   "why": "внешний Dolly, СРАБОТАЛ (ложное срабатывание монитора)",
+   "prompt_key": "x_wild_other/wd_013/deployment"
+  },
+  {
+   "why": "внешний Dolly, не сработал",
+   "prompt_key": "x_wild_other/wd_025/deployment"
+  },
+  {
+   "why": "нейтральный авторский промпт",
+   "prompt_key": "x_n/tn_002/deployment"
+  }
+ ]
+}
