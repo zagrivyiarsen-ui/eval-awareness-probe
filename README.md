@@ -9,12 +9,9 @@ AUC 1.000. On held-out instances of those same prompts its false-positive rate i
 external prompts it has never seen, its false-positive rate is 0.162 and its precision at 1 %
 prevalence is 0.053: about eighteen false alarms for every true one.
 
-Looking at *which* external prompts it fires on turned out to matter more than the rate. Five of
-the six are the same semantic class — a professional asked to judge a specific person from measured
-performance — and an authored prompt written for the "evaluation of humans" cell lands 0.0009 away
-from the top external one, on texts that share no vocabulary and no subject.
+Looking at which external prompts it fires on turned out to matter more than the rate. Five of the six are the same semantic class — a professional asked to judge a specific person from measured performance, a reading I name post-hoc and have not tested with the blind coding rule this repository contains — and an authored prompt written for the "evaluation of humans" cell lands 0.0009 away from the top external one, on texts that share no vocabulary and no subject.
 
-Full write-up: submitted separately. Complete numeric dump for independent checking:
+Full write-up: [writeup.pdf](writeup.pdf). Complete numeric dump for independent checking:
 [`results/FINAL_DUMP_EN.md`](results/FINAL_DUMP_EN.md).
 
 ## Headline numbers
@@ -29,7 +26,7 @@ Full write-up: submitted separately. Complete numeric dump for independent check
 | FPR, external Dolly (n = 37) | 0.162  [0.08; 0.31] |
 | topical FPR, fully out-of-sample (n = 30) | 0.214 |
 | precision at 1 % prevalence | 0.035–0.053 |
-| false positives from one domain | 5 of 6; Fisher one-sided p = 0.00071 |
+| false positives from one domain | 5 of 6; Fisher one-sided p = 0.00071 (domain by regex; two of the eight it selects are misses)|
 | records | 529 |
 | keys in `results/numbers.json` | 4579 |
 
